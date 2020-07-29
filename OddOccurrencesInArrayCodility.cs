@@ -20,7 +20,7 @@ namespace OddOccurrencesInArray
                     dict.Add(n, 1);
                 }
             }
-            var oddVal = dict.FirstOrDefault(x => x.Value == 1).Key; //Get Vlaue from Key using Lambda expression
+            var oddVal = dict.FirstOrDefault(x => x.Value == 1).Key; //Get Value from Key using Lambda expression
             return oddVal;
         }
         static void Main(string[] args)
